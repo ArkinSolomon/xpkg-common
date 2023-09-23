@@ -19,3 +19,5 @@ jobs:
       - uses: actions-x/commit@v6
         with:
           branch: deployment
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          
