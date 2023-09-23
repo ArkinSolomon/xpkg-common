@@ -20,10 +20,10 @@ jobs:
       - run: npm run build
       - run: echo 'Generated shared code' > README.md
       - run: mv dist/* .
-      - run: rm -rf src
+      - run: rm -rf src .github
       - uses: actions-x/commit@v6
         with:
-          files: src README.md *.d.ts *.map *.js
+          files: src README.md *.d.ts *.map *.js .github
           force: true
           branch: deployment
           message: 'Automatically build common (GitHub Actions)'
