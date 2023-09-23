@@ -14,12 +14,8 @@
  */
 import { ValidationChain } from 'express-validator';
 import Version from './version';
-import VersionSelection from './versionSelection.js';
-
-// const profaneWords = fs
-//   .readFileSync(path.resolve('.', 'resources', 'profanity_list.txt'), 'utf-8')
-//   .split(/\n/g);
-const profaneWords = ['profane_words'];
+import VersionSelection from './versionSelection';
+import profaneWords from './profaneWords';
 
 /**
  * Determine if a text has profanity.

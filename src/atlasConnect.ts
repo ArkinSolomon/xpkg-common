@@ -13,7 +13,7 @@
  * either express or implied limitations under the License.
  */
 import mongoose from 'mongoose';
-import logger from './logger.js';
+import logger from './logger';
 
 try {
   await mongoose.connect(`mongodb+srv://${process.env.MONGODB_IP}/?authSource=%24external&authMechanism=MONGODB-X509` as string, {
