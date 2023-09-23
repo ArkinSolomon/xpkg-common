@@ -26,6 +26,7 @@ const transporter = nodemailer.createTransport({
 /**
  * Send an email to someone. 
  * 
+ * @async
  * @param {string} address The email address of the recipient.
  * @param {string} subject The subject line of the email.
  * @param {string} body The body/message of the email.

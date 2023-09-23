@@ -27,3 +27,7 @@ try {
   logger.fatal(e, 'Could not connect to MongoDB Atlas');
   process.exit(1);
 }
+
+// Let's us just import this file
+const exp = null;
+export default exp;

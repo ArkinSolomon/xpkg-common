@@ -12,6 +12,10 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
  * either express or implied limitations under the License.
  */
-export * from './atlasConnect';
-export * from './email';
-export * from './logger';
+export { default as logger } from './logger';
+export { default as sendEmail } from './email';
+export { default as atlasConnect } from './atlasConnect';
+export { default as verifyRecaptcha } from './recaptcha';
+export * as validators from './validators';
+export { default as Version } from './version';
+export { default as VersionSelection } from './versionSelection';

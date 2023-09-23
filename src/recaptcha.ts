@@ -26,7 +26,7 @@ if (disableCaptcha)
  * @param {string} ip The ip address to report to reCAPTCHA.
  * @returns {Promise<boolean>} A promise which resolves to true if the action should be allowed, or false if the action should not be allowed, or if there is an error.
  */
-export default async function verifyRecaptcha(token: string, ip: string): Promise<boolean> {
+export default async function (token: string, ip: string): Promise<boolean> {
   if (disableCaptcha)
     return true;
   try {
