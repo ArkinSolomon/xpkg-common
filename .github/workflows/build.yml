@@ -16,7 +16,6 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run build
-      - run: echo hola${{ secrets.BUILD_TOKEN }}
       - uses: github-actions-x/commit@v2.9
         with:
           push-branch: deployment
