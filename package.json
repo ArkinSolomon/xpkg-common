@@ -1,0 +1,32 @@
+{
+  "name": "xpkg-common",
+  "version": "1.0.0",
+  "description": "X-Pkg common server code",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "lint": "npx eslint src/** --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkinSolomon/xpkg-common.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ArkinSolomon/xpkg-common/issues"
+  },
+  "homepage": "https://github.com/ArkinSolomon/xpkg-common#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "big.js": "^6.2.1",
+    "express-validator": "^7.0.1",
+    "mongoose": "^7.5.2",
+    "pino": "^8.15.1"
+  },
+  "devDependencies": {
+    "@types/big.js": "^6.2.0",
+    "@types/node": "^20.6.3",
+    "typescript": "^5.2.2"
+  }
+}
