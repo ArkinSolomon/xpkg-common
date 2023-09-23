@@ -19,6 +19,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: echo 'Generated shared code' > README.md
+      - run: git add -f dist
       - uses: actions-x/commit@v6
         with:
           files: dist src README.md
