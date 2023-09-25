@@ -13,9 +13,9 @@
  * either express or implied limitations under the License.
  */
 import { ValidationChain } from 'express-validator';
-import Version from './version';
-import VersionSelection from './versionSelection';
-import profaneWords from './profaneWords';
+import Version from './version.js';
+import VersionSelection from './versionSelection.js';
+import profaneWords from './profaneWords.js';
 
 /**
  * Determine if a text has profanity.

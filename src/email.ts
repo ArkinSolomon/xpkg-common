@@ -13,7 +13,7 @@
  * either express or implied limitations under the License.
  */
 import nodemailer from 'nodemailer';
-import logger from './logger';
+import logger from './logger.js';
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',

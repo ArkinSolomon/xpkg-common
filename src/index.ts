@@ -12,10 +12,10 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
  * either express or implied limitations under the License.
  */
-export { default as logger } from './logger';
-export { default as sendEmail } from './email';
-export { default as atlasConnect } from './atlasConnect';
-export { default as verifyRecaptcha } from './recaptcha';
-export * as validators from './validators';
-export { default as Version } from './version';
-export { default as VersionSelection } from './versionSelection';
+export { default as logger } from './logger.js';
+export { default as sendEmail } from './email.js';
+export { default as atlasConnect } from './atlasConnect.js';
+export { default as verifyRecaptcha } from './recaptcha.js';
+export * as validators from './validators.js';
+export { default as Version } from './version.js';
+export { default as VersionSelection } from './versionSelection.js';
